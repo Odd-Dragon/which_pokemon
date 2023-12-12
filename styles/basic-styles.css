@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Titillium+Web:wght@300&display=swap');
+
+/*Basic Body CSS*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fcf5e5;
+}
+
+/*Header and Footer CSS*/
+header {
+    background-color: #0c4d50;
+    color: #d4b3bc;
+    display: grid;
+    width: 100%; 
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    justify-content: center;
+}
+
+.title-box{
+    font-size: 1.25em;
+    margin: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title-box h2{
+    font-family:'Pirata One';
+}
+
+.logo-box {
+    margin: 20px;
+    z-index: +1;
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    align-content: center;
+}
+
+.logo {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    z-index: +1;
+    border-radius: 25px;
+    align-content: center;
+}
+
+#logo_link{   
+    padding-top: 5px;
+    justify-self: left;
+    align-self: center;
+    z-index: +1;
+    grid-column: 1/2;
+}
+
+.logo:hover{
+    box-shadow: 0 0 20px #333;
+}
+
+.link-container{
+    padding: .25em;
+}
+
+.link-label{
+    color:#d4b3bc;
+    text-decoration:none;
+    text-align: center;
+    font-family: 'Titillium Web';
+}
+
+.link-label:hover{
+    background-color:#d4b3bc;
+    color:#0c4d50;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#searchForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+#searchButton {
+    padding: 8px 12px;
+    background-color: #d4b3bc;
+    color: #0c4d50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Titillium Web';
+}
+
+#searchButton:hover {
+    background-color: #dad57a;
+}
+
+footer{
+    background-color: #0c4d50;
+    color: #d4b3bc;
+    display: flex;
+    justify-content: center;
+}
+
+.ftag{
+    text-align: center;
+}
+
+/*Index CSS*/
+.welcome-box{
+    display: grid; 
+    grid-template-columns: 15% 70% 15%;
+    color:#0c4d50;
+    font-family: "Titillium Web";
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    display:grid;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.dice-box, .sheet-box, .reference-box {
+    text-align: center;
+    color:#590124;
+    font-family: 'Pirata One';
+}
+
+.link_img{
+    max-width: 375px;
+}
+/*Roller CSS*/
+#app{
+    margin-bottom:30px;
+}
+#app h1{
+    color:#0c4d50;
+    font-family: "Pirata One";
+    text-align: center;
+}
+#diceForm{
+    color:#0c4d50;
+    display:grid;
+    justify-items: center;
+    margin:5px;
+}
+.formBox{
+    padding: 10px;
+}
+.rollBtn{
+    color:#0c4d50;
+    background-color:#d4b3bc;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Titillium Web';
+}
+/*Character Sheet CSS*/
+
+/*Reference CSS*/

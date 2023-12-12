@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web App</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>D&D Resource</title>
+    <link rel="icon" href="/images/Quixotic-Dragons Logo.png">
+    <link rel="stylesheet" href="/styles/basic-styles.css">
+    <script defer src="/scripts/main-scripts.js"></script>
 </head>
 <body>
-    <div id="app">
-        <h1>Hello, Web App!</h1>
-        <button onclick="changeText()">Click me</button>
+    <div id="headerContainer"></div>
+    <div class="welcome-box">
+        <div></div>
+        <p>Welcome to the Quixotic-Dragons D&D Resource (for players and DMs!), featuring full searchable access to the SRD content, a dice roller, and a form-fillable character sheet! Homebrew content and support will be added later.</p>
+        <div></div>
     </div>
-
-    <script src="script.js"></script>
+    <main>
+        <div class="dice-box">
+            <h2>Roll Some Dice</h2>
+            <a id="page_link" href="/pages/roller.html">
+                <img class= "link_img" src="/images/dice.png" alt="Dice!">
+            </a>
+        </div>
+        <div class="sheet-box">
+            <h2>Build a Character</h2>
+            <a id="page_link" href="/pages/chara-sheet.html">
+                <img class= "link_img" src="/images/Character Sheet Final (pg1) v2.png" alt="Character Sheet">
+            </a>
+        </div>
+        <div class="reference-box">
+            <h2>Peruse the SRD</h2>
+            <a id="page_link" href="/pages/reference.html">
+                <img class= "link_img" src="/images/DD-Players-Handbook-5e-cover-art.jpg" alt="D&D Art">
+            </a>
+        </div>
+    </main>
+    <div id="footerContainer"></div>
 </body>
 </html>
