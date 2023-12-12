@@ -180,5 +180,8 @@ main{
     font-family: 'Titillium Web';
 }
 /*Character Sheet CSS*/
-
+.download-box{
+    text-align: center;
+    justify-items: center;
+}
 /*Reference CSS*/
