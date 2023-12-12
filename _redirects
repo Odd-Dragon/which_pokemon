@@ -1,1 +1,1 @@
-/api/roll https://diceforge.p.rapidapi.com/roll/:sides/:count/:modifier/:advantage 200
+/api/roll https://diceforge.p.rapidapi.com/roll/:6/:1/:0/:false 200
