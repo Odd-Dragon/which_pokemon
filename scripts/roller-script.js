@@ -1,5 +1,5 @@
 async function rollDice() {
-    const url = 'https://diceforge.p.rapidapi.com/roll?sides=6&count=1&modifier=5&advantage=true';
+    const url = '/api/roll?sides=6&count=1&modifier=5&advantage=true';
     const options = {
         method: 'GET',
         headers: {
