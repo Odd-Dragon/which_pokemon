@@ -7,12 +7,43 @@
     <link rel="icon" href="/images/Quixotic-Dragons Logo.png">
     <link rel="stylesheet" href="/styles/basic-styles.css">
     <script defer src="/scripts/main-scripts.js"></script>
+    <script src="/scripts/reference-scripts.js"></script>
 </head>
 <body>
 <div id="headerContainer"></div>
-    <main>
+    <div class="reference-main">
+        <div class="empty"></div>
+        <div class="decision-box">
+            <div class="endpoint-box">
+                <label for="apiEndpoints">What would you like to see?</label>
+                <select id="apiEndpoints">
+                  <!-- Options will be dynamically added here using JavaScript -->
+                </select>
+                <button id="fetchButton">Fetch Data</button>
+            </div>
+            <div class="info-box">
+                <div id="listContainer"></div>
+                <div id="details-box">
+                    <h2 id="name-slot"></h2>
+                    <p id="prof-slot"></p>
+                    <p id="equip-slot"></p>
+                    <h3 id="feature-title"></h3>
+                    <p id="feature-slot"></p>
+                    <p id="cat-slot"></p>
+                    <p id="price-slot"></p>
+                    <p id="rarity-slot"></p>
+                    <p id="type-slot"></p>
+                    <p id="hp-slot"></p>
+                    <p id="stat-slot"></p>
+                    <p id="action-slot"></p>
+                    <p id="spell-slot"></p>
+                    <p id="desc-slot"></p>
+                    <p id="highLv-slot"></p>
 
-    </main>
+                </div>
+            </div>
+        </div>
+    </div>
 <div id="footerContainer"></div>
 </body>
 </html>
